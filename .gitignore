@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Fichiers et répertoires générés par Vite
+.vite/
+
+# Dossier de build et de dist
+dist/
+build/
+
+# Fichiers de log
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Fichiers de cache de IntelliJ IDEA
+.idea/
+*.iml
+
+# Fichiers temporaires système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration Git
+.gitmodules
+.gitconfig
+
+# Fichiers de configuration de l'environnement
+.env
+# Si nodemon génère un fichier de configuration spécifique
+.nodemon-debug*
